@@ -9,7 +9,7 @@ function App() {
 	const [topAlert, setTopAlert] = useState('')
 
 	return (
-		<div className="App">
+		<div className="container my-5">
 			{topAlert && <Alert variant="danger" onClose={() => setTopAlert('')} dismissible>
 				{topAlert}
 			</Alert>}
